@@ -1,3 +1,6 @@
+""" Есть займ 9 400 000 руб., срок 30 лет, ставка 10.6%. Добавьте для анализа два постоянных платежа 120 или 150 тыс. руб.
+Добавьте графики с досрочным погашением по этим параметрам."""
+
 import pyspark,time,platform,sys,os
 from datetime import datetime
 from pyspark.sql.session import SparkSession
